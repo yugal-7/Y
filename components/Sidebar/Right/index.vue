@@ -8,8 +8,8 @@
                 </div>
             </div>
             <input v-model="search"
-                class="flex items-center w-full pl-12 text-sm font-normal text-black bg-gray-200 border border-gray-200 rounded-full shadow dark:text-gray-100 dark:bg-dim-400 dark:border-dim-400 focus:bg-gray-100 dark:focus:bg-dim-900 focus:outline-none focus:border focus:border-blue-200 h-9"
-                placeholder="Search tweet" type="text">
+                class="flex items-center w-full pl-12 text-sm font-normal text-black bg-gray-200 border border-gray-200 rounded-full shadow dark:text-gray-100 dark:bg-dim-400 dark:border-dim-400 focus:bg-gray-100 dark:focus:bg-dim-900 focus:outline-none focus:border focus:border-[#fc0352] h-9"
+                placeholder="Search" type="text">
         </div>
     <div>
       <SidebarRightPreviewCard title="What's happening">
@@ -64,9 +64,6 @@
                 <li class="inline-block mx-2">
                     <a href="#" class="hover:underline">More</a>
                 </li>
-                <li class="inline-block mx-2">
-                    © 2022 Twitter, Inc.
-                </li>
             </ul>
           </div>
 
@@ -90,15 +87,15 @@ function handleSearch() {
 const whatsHappeningItems = ref([
   {
     title: "#SpaceX",
-    count: "18.8k Tweets",
+    count: "18.8k Posts",
   },
   {
     title: "#Coding is fun",
-    count: "7.4k Tweets",
+    count: "7.4k Posts",
   },
   {
     title: "#art for all",
-    count: "1.6k Tweets",
+    count: "1.6k Posts",
   },
 ]);
 

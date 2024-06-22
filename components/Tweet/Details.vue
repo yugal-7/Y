@@ -1,7 +1,7 @@
 <template>
     <div>
         <TweetItem :tweet="props.tweet"/>
-        <TweetForm placeholder="Tweet your reply" :user="props.user" :reply-to="props.tweet" @on-success="handleFormSuccess" />
+        <TweetForm placeholder="reply" :user="props.user" :reply-to="props.tweet" @on-success="handleFormSuccess" />
         <TweetListFeed :tweets="replies" />
     </div>
 </template>

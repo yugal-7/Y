@@ -28,7 +28,7 @@
 
     <div class="flex p-2 pl-14">
             <div class="flex w-full text-white">
-                <div class="p-2 text-blue-400 rounded-full cursor-pointer hover:bg-blue-50 dark:hover:bg-dim-800"
+                <div class="p-2 text-[#fc0352] rounded-full cursor-pointer hover:bg-red-50 dark:hover:bg-dim-800"
                     @click="handleImageClick">
                     <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor">
                         <g>
@@ -40,7 +40,7 @@
                     </svg>
                 </div>
 
-                <div class="p-2 text-blue-400 rounded-full cursor-pointer hover:bg-blue-50 dark:hover:bg-dim-800">
+                <div class="p-2 text-[#fc0352] rounded-full cursor-pointer hover:bg-red-50 dark:hover:bg-dim-800">
                     <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor">
                         <g>
                             <path
@@ -53,7 +53,7 @@
                     </svg>
                 </div>
 
-                <div class="p-2 text-blue-400 rounded-full cursor-pointer hover:bg-blue-50 dark:hover:bg-dim-800">
+                <div class="p-2 text-[#fc0352] rounded-full cursor-pointer hover:bg-red-50 dark:hover:bg-dim-800">
                     <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor">
                         <g>
                             <path
@@ -63,7 +63,7 @@
                     </svg>
                 </div>
 
-                <div class="p-2 text-blue-400 rounded-full cursor-pointer hover:bg-blue-50 dark:hover:bg-dim-800">
+                <div class="p-2 text-[#fc0352] rounded-full cursor-pointer hover:bg--50 dark:hover:bg-dim-800">
                     <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor">
                         <g>
                             <path
@@ -78,7 +78,7 @@
                     </svg>
                 </div>
 
-                <div class="p-2 text-blue-400 rounded-full cursor-pointer hover:bg-blue-50 dark:hover:bg-dim-800">
+                <div class="p-2 text-[#fc0352] rounded-full cursor-pointer hover:bg-blue-50 dark:hover:bg-dim-800">
                     <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor">
                         <g>
                             <path d="M-37.9 18c-.1-.1-.1-.1-.1-.2.1 0 .1.1.1.2z"></path>
@@ -97,7 +97,7 @@
             </div>
             <div class="ml-auto">
                   <UIButton size="sm" :disabled="isDisabled" @onClick="handleFormSubmit">
-                         <span class="font-bold">Tweet</span>
+                         <span class="font-bold">Post</span>
                   </UIButton>
     </div>
         </div>

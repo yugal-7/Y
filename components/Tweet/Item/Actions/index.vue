@@ -1,7 +1,7 @@
 <template>
     <div class="flex items-center justify-around w-full">
 
-        <TweetItemActionsIcon color="blue" @on-click="emits('onCommentClick')" :size="size">
+        <TweetItemActionsIcon color="red" @on-click="emits('onCommentClick')" :size="size">
 
             <template v-slot:icon="{ classes }">
                 <ChatIcon :class="classes" />
@@ -38,7 +38,7 @@
 
         </TweetItemActionsIcon>
 
-        <TweetItemActionsIcon color="blue" :size="size">
+        <TweetItemActionsIcon color="red" :size="size">
 
             <template v-slot:icon="{ classes }">
                 <UploadIcon :class="classes" />
